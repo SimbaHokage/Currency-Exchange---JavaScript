@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  background-color: #293038;
+}
+
+.wrapper {
+  font-size: 1.6rem;
+  padding: 5em;
+  width: 64em;
+  background-image: linear-gradient(#3F4B59, #333D46);
+  color: #fff;
+  text-align: center;
+  border: 1px solid #1C232D;
+  border-radius: 15px;
+  box-shadow: 0 0 15px #1C232D;
+}
+.wrapper h1 {
+  font-size: 4.5rem;
+  margin-bottom: 0.1em;
+}
+.wrapper p {
+  margin-bottom: 3em;
+  font-size: 2.6rem;
+  font-weight: 200;
+}
+.wrapper .rate-info {
+  margin-top: 3em;
+  margin-bottom: 0;
+}
+
+.app-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app-body input {
+  margin-bottom: 0.2em;
+  width: 100%;
+  font-size: 6rem;
+}
+.app-body input,
+.app-body select {
+  color: #fff;
+  border: none;
+  background: none;
+  text-align: center;
+}
+.app-body select {
+  padding: 0.3em 0.6em;
+  font-size: 3rem;
+  cursor: pointer;
+}
+.app-body input:focus,
+.app-body select:focus {
+  outline: none;
+  color: rgb(2, 112, 202);
+}
+.app-body option {
+  color: #333;
+}
+
+.section-left,
+.section-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.swap {
+  align-self: flex-end;
+  margin: 0.2em;
+  padding: 0.4em 5em;
+  background-image: linear-gradient(45deg, #2b98e7, #11e763);
+  font-size: 3rem;
+  border: none;
+  border-radius: 25px;
+  color: #fff;
+  cursor: pointer;
+}
+.swap:focus {
+  outline: none;
+  background-image: linear-gradient(45deg, #317fcc, #1fc06a);
+}/*# sourceMappingURL=style.css.map */

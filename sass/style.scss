@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #293038;
+}
+
+.wrapper {
+    font-size: 1.6rem;
+    padding: 5em;
+    width: 64em;
+    background-image: linear-gradient(#3F4B59, #333D46);
+    color: #fff;
+    text-align: center;
+    border: 1px solid #1C232D;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #1C232D;
+
+    h1 {
+        font-size: 4.5rem;
+        margin-bottom: 0.1em;
+    }
+
+    p {
+        margin-bottom: 3em;
+        font-size: 2.6rem;
+        font-weight: 200;
+    }
+
+    .rate-info {
+        margin-top: 3em;
+        margin-bottom: 0;
+    }
+}
+
+
+.app-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    input {
+        margin-bottom: 0.2em;
+        width: 100%;
+        font-size: 6rem;
+    }
+
+    input, 
+    select {
+        color:#fff;
+        border: none;
+        background: none;
+        text-align: center;
+    }
+
+    select {
+        padding: 0.3em 0.6em;
+        font-size: 3rem;
+        cursor: pointer;
+    }
+
+    input:focus, 
+    select:focus {
+        outline: none;
+        color: rgba(2, 112, 202, 1)
+    }
+
+    option {
+        color: #333;
+    }
+}
+
+.section-left,
+.section-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.swap {
+    align-self: flex-end;
+    margin: 0.2em;
+    padding: 0.4em 5em;
+    background-image: linear-gradient(45deg, #2b98e7, #11e763);
+    font-size: 3rem;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    cursor: pointer;
+
+    &:focus {
+        outline:none;
+        background-image: linear-gradient(45deg, #317fcc, #1fc06a);
+    }
+}
